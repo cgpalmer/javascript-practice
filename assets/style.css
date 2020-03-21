@@ -35,7 +35,16 @@ body {
     color: #000;
 }
 
+/*--------------------------------------------------------- Extra Content*/
+.page2 {
+    display: none;
+}
+
+.page {
+    display: block;
+}
 /*--------------------------------------------------------- Dark Mode*/
+
 
 .body-dark {
     background-color: #000;

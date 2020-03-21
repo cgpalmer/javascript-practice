@@ -9,4 +9,14 @@ $(document).ready(function () {
         $("footer").toggleClass("footer-dark");
         $("a").toggleClass("anchor-styling-dark");
     })
+        
+     $("#page1").click(function(){
+        $(".page2").css("display","none");
+        $(".page1").css("display", "block");
+    });
+
+    $("#page2").click(function(){
+        $(".page2").css("display","block");
+        $(".page1").css("display", "none");
+    });
 });
